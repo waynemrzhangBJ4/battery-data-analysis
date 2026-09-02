@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+.venv/
+
+# 腳本產物不進版控：repo 的價值在於「跑一次就能自己產生」
+*/output/
+!cell/output/
+cell/output/*
+!cell/output/environment.json
+
+# 內部流程文件，不對外
+GitHub_驗收清單/
+⛔CLAUDE_ONLY/

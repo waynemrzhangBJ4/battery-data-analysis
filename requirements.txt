@@ -1,0 +1,10 @@
+# 最後一次完整驗證的環境（2026-09-02）
+# Python 3.13.14
+numpy==2.4.6
+scipy==1.18.1
+pandas==3.0.5
+matplotlib
+tqdm
+
+# 僅 cell/ 需要
+pybamm==26.8.0.0
